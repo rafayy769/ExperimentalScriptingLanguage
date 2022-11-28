@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
         return 2;
     }
 
-    Interpreter interpreter;
+    // Interpreter interpreter;
     // Read file
     string line;
     while (getline(file, line))
@@ -44,7 +44,7 @@ int main(int argc, char const *argv[])
             continue;
         }
 
-        interpreter.set_source(line);
+        Interpreter interpreter(line);
         interpreter.interpret();
     }
     

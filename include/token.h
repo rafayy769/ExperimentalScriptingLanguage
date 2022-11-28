@@ -4,6 +4,7 @@ enum class TokenType
 {
     // Single-character tokens.
     // Operators
+    OPERATOR,
     PLUS, MINUS, MULTIPLY, DIVIDE, MOD,
 
     // One or two character tokens.
