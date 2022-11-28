@@ -10,4 +10,4 @@ all:
 	$(CC) $(CFLAGS) $(SRC)/*.cpp -o $(TARGET)
 
 out:
-	$(TARGET)
+	$(TARGET) script
